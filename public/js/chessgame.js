@@ -79,18 +79,18 @@ const handelMove = (source, target) => {
 
 const getPieceUniCode = (piece) => {        // The Icons are still not showing, find a way to diplay pieces on board.
     const unicodePieces = {
-        k: "K",
-        q: "Q",
-        r: "R",
-        b: "B",
-        n: "Kn",
-        p: "P",
-        K: "K",
-        Q: "Q",
-        R: "R",
-        B: "B",
-        N: "Kn",
-        P: "P"
+        k: "\u265A",
+        q: "\u265B",
+        r: "\u265C",
+        b: "\u265D",
+        n: "\u265E",
+        p: "\u265F",
+        // K: "\u2654",
+        // Q: "\u2655",
+        // R: "\u2656",
+        // B: "\u2657",
+        // N: "\u2658",
+        // P: "\u2659"
         }
 
     return unicodePieces[piece.type] || "";
